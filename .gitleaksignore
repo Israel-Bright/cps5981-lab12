@@ -1,0 +1,4 @@
+# Historic findings, listed only after the secret was revoked.
+# 2026-11-22: DEPLOY_TOKEN from config/app.env. Revoked at its issuer; replaced by the
+# "production" environment secret (rotated value). It remains in history, so it is treated as exposed.
+fc41fc6fa156c12dfc79caf90aa90aedcfb0a530:config/app.env:generic-api-key:5

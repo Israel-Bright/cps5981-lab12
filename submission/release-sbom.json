@@ -1,0 +1,206 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:d5d3c8bc-7e31-44e3-8e21-90179d4743eb",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-22T20:53:05Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.54.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "6d973203015b6e2b",
+      "type": "application",
+      "name": "cougar-advising.tar.gz",
+      "version": "v1.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c074d33cd933c46e69d854b9d2bc6ccb0aee462181c7c48b7088df4cc175d168"
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "cps5981:release:version",
+        "value": "v1.0.0"
+      },
+      {
+        "name": "cps5981:release:sha256",
+        "value": "c074d33cd933c46e69d854b9d2bc6ccb0aee462181c7c48b7088df4cc175d168"
+      },
+      {
+        "name": "cps5981:release:source_commit",
+        "value": "6669de9a445676880ed3c48e5ea82959faaf9f5d"
+      },
+      {
+        "name": "cps5981:release:build_run",
+        "value": "https://github.com/Israel-Bright/cps5981-lab12/actions/runs/45068921503/attempts/1"
+      },
+      {
+        "name": "cps5981:release:builder",
+        "value": "Israel-Bright/cps5981-lab12/.github/workflows/release.yml@refs/heads/main"
+      },
+      {
+        "name": "cps5981:release:built_at",
+        "value": "2026-11-22T20:53:02Z"
+      }
+    ]
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:npm/cougar-advising@1.0.0?package-id=7102171a1083625a",
+      "type": "library",
+      "name": "cougar-advising",
+      "version": "1.0.0",
+      "cpe": "cpe:2.3:a:cougar-advising:cougar-advising:1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/cougar-advising@1.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "javascript-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "javascript"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "npm"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "javascript-npm-package-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cougar-advising:cougar_advising:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cougar_advising:cougar-advising:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cougar_advising:cougar_advising:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cougar:cougar-advising:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cougar:cougar_advising:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "cougar-advising/package-lock.json"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/dayjs@1.11.13?package-id=6f17732a81d6388d",
+      "type": "library",
+      "name": "dayjs",
+      "version": "1.11.13",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:dayjs:dayjs:1.11.13:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/dayjs@1.11.13",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "javascript-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "javascript"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "npm"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "javascript-npm-package-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "cougar-advising/package-lock.json"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/dompurify@3.2.4?package-id=428be91120a8937e",
+      "type": "library",
+      "name": "dompurify",
+      "version": "3.2.4",
+      "licenses": [
+        {
+          "expression": "MPL-2.0 OR Apache-2.0"
+        }
+      ],
+      "cpe": "cpe:2.3:a:dompurify:dompurify:3.2.4:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/dompurify@3.2.4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "javascript-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "javascript"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "npm"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "javascript-npm-package-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "cougar-advising/package-lock.json"
+        }
+      ]
+    },
+    {
+      "bom-ref": "16690906ef6a3aa5",
+      "type": "file",
+      "name": "/tmp/syft-archive-contents-3340156712/cougar-advising/package-lock.json",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "634de5897abcef5ece779014749e407c3646e937"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "aa2b81a69d6bbfcdd6379c74829579b16f80dd795bf148cf75cabcd7d06c8b03"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:npm/cougar-advising@1.0.0?package-id=7102171a1083625a",
+      "dependsOn": [
+        "pkg:npm/dayjs@1.11.13?package-id=6f17732a81d6388d",
+        "pkg:npm/dompurify@3.2.4?package-id=428be91120a8937e"
+      ]
+    }
+  ]
+}

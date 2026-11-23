@@ -1,0 +1,7 @@
+Verification succeeded (exit code 0)
+  artifact digest : sha256:c074d33cd933c46e69d854b9d2bc6ccb0aee462181c7c48b7088df4cc175d168
+  predicate       : https://slsa.dev/provenance/v1
+  signed by       : https://github.com/Israel-Bright/cps5981-lab12/.github/workflows/release.yml@refs/heads/main
+  source          : https://github.com/Israel-Bright/cps5981-lab12 @ 6669de9a445676880ed3c48e5ea82959faaf9f5d
+  build run       : https://github.com/Israel-Bright/cps5981-lab12/actions/runs/45068921503/attempts/1
+  issuer          : https://token.actions.githubusercontent.com

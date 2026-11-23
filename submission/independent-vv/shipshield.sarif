@@ -1,0 +1,608 @@
+{
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "ShipShield",
+          "version": "2026.10.2",
+          "informationUri": "https://shipshield.io/security",
+          "organization": "CloudOneSoftware LLC",
+          "rules": [
+            {
+              "id": "dep-vuln",
+              "name": "depVuln",
+              "shortDescription": {
+                "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-39q2-94rc-95cp)"
+              },
+              "fullDescription": {
+                "text": "DOMPurify's ADD_TAGS function form bypasses FORBID_TAGS due to short-circuit evaluation"
+              },
+              "help": {
+                "text": "Upgrade dompurify from 3.2.4 to version 3.4.0 or later. Update the lockfile, run the tests, and tell me about any breaking changes in the release notes. Advisory: https://osv.dev/vulnerability/GHSA-39q2-94rc-95cp"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "properties": {
+                "security-severity": "5.5",
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-783"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-39q2-94rc-95cp)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-39q2-94rc-95cp",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/ed2d807c"
+          },
+          "properties": {
+            "security-severity": "5.5",
+            "severity": "medium"
+          }
+        },
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-55q2-fjhq-7xh7)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-55q2-fjhq-7xh7",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/e19a6736"
+          },
+          "properties": {
+            "security-severity": "5.5",
+            "severity": "medium"
+          }
+        },
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-76mc-f452-cxcm)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-76mc-f452-cxcm",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/d9d34c71"
+          },
+          "properties": {
+            "security-severity": "5.5",
+            "severity": "medium"
+          }
+        },
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-cj63-jhhr-wcxv)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-cj63-jhhr-wcxv",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/4a4f2ebe"
+          },
+          "properties": {
+            "security-severity": "5.5",
+            "severity": "medium"
+          }
+        },
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-cjmm-f4jc-qw8r)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-cjmm-f4jc-qw8r",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/4bb7411e"
+          },
+          "properties": {
+            "security-severity": "5.5",
+            "severity": "medium"
+          }
+        },
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-cmwh-pvxp-8882)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-cmwh-pvxp-8882",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/85698533"
+          },
+          "properties": {
+            "security-severity": "5.5",
+            "severity": "medium"
+          }
+        },
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-crv5-9vww-q3g8)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-crv5-9vww-q3g8",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/bb8e9fa4"
+          },
+          "properties": {
+            "security-severity": "5.5",
+            "severity": "medium"
+          }
+        },
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-h7mw-gpvr-xq4m)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-h7mw-gpvr-xq4m",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/128a8844"
+          },
+          "properties": {
+            "security-severity": "5.5",
+            "severity": "medium"
+          }
+        },
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-h8r8-wccr-v5f2)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-h8r8-wccr-v5f2",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/935247ba"
+          },
+          "properties": {
+            "security-severity": "5.5",
+            "severity": "medium"
+          }
+        },
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-hpcv-96wg-7vj8)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-hpcv-96wg-7vj8",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/88d1407d"
+          },
+          "properties": {
+            "security-severity": "5.5",
+            "severity": "medium"
+          }
+        },
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-r47g-fvhr-h676)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-r47g-fvhr-h676",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/bfa96489"
+          },
+          "properties": {
+            "security-severity": "5.5",
+            "severity": "medium"
+          }
+        },
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-rp9w-3fw7-7cwq)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-rp9w-3fw7-7cwq",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/fdc9a1e5"
+          },
+          "properties": {
+            "security-severity": "5.5",
+            "severity": "medium"
+          }
+        },
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-v2wj-7wpq-c8vv)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-v2wj-7wpq-c8vv",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/c22196b1"
+          },
+          "properties": {
+            "security-severity": "5.5",
+            "severity": "medium"
+          }
+        },
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-v8jm-5vwx-cfxm)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-v8jm-5vwx-cfxm",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/767a6e19"
+          },
+          "properties": {
+            "security-severity": "5.5",
+            "severity": "medium"
+          }
+        },
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-v9jr-rg53-9pgp)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-v9jr-rg53-9pgp",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/f6862b06"
+          },
+          "properties": {
+            "security-severity": "5.5",
+            "severity": "medium"
+          }
+        },
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-vxr8-fq34-vvx9)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-vxr8-fq34-vvx9",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/a24a6af9"
+          },
+          "properties": {
+            "security-severity": "5.5",
+            "severity": "medium"
+          }
+        },
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-x4vx-rjvf-j5p4)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-x4vx-rjvf-j5p4",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/dae9e54b"
+          },
+          "properties": {
+            "security-severity": "5.5",
+            "severity": "medium"
+          }
+        },
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "note",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-6688-9rhm-gjv2)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-6688-9rhm-gjv2",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/a2d6627d"
+          },
+          "properties": {
+            "security-severity": "2.0",
+            "severity": "low"
+          }
+        },
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "note",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-c2j3-45gr-mqc4)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-c2j3-45gr-mqc4",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/5345d725"
+          },
+          "properties": {
+            "security-severity": "2.0",
+            "severity": "low"
+          }
+        },
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "note",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-c6gr-qvv4-5v3f)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-c6gr-qvv4-5v3f",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/272cf4f9"
+          },
+          "properties": {
+            "security-severity": "2.0",
+            "severity": "low"
+          }
+        },
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "note",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-gvmj-g25r-r7wr)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-gvmj-g25r-r7wr",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/edbd5472"
+          },
+          "properties": {
+            "security-severity": "2.0",
+            "severity": "low"
+          }
+        },
+        {
+          "ruleId": "dep-vuln",
+          "ruleIndex": 0,
+          "level": "note",
+          "message": {
+            "text": "Vulnerable dependency: dompurify 3.2.4 (GHSA-mrv2-3pqr-j5jr)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dependencies/npm/dompurify%403.2.4%23GHSA-mrv2-3pqr-j5jr",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "primaryLocationLineHash/v1": "ShipShield/dep-vuln/08f2ecd6"
+          },
+          "properties": {
+            "security-severity": "2.0",
+            "severity": "low"
+          }
+        }
+      ],
+      "columnKind": "utf16CodeUnits",
+      "automationDetails": {
+        "id": "shipshield/scan/fdbadd21-3729-4e8b-8f01-854b41a6e77a"
+      },
+      "versionControlProvenance": [
+        {
+          "repositoryUri": "https://github.com/Israel-Bright/cps5981-lab12"
+        }
+      ],
+      "invocations": [
+        {
+          "executionSuccessful": true,
+          "startTimeUtc": "2026-11-23T15:11:53.025452+00:00"
+        }
+      ]
+    }
+  ]
+}
